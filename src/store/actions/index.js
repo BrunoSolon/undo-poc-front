@@ -1,0 +1,1 @@
+export * as PersonActions from './home';
