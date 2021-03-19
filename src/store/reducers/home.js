@@ -19,7 +19,6 @@ const person = (state = defaultState, action) => {
 const undoablePerson = undoable(person, { ignoreInitialState: true, limit: 1 });
 
 export function getPerson(state) {
-  console.log('------------', state.home);
   return state.home.present.person;
 }
 
